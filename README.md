@@ -1,4 +1,26 @@
-<p align="center">
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics; 
+using System.Drawing;
+using System.Drawing.Imaging;
+using System.Linq;
+using System.Numerics;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ValorantColorAimbot 
+{
+    class Program
+    {
+        // Here you will need to modify it to fit your screen. If you don't fix it, it won't fit and won't work.
+        const int xSize = 2560;
+        const int ySize = 1080;
+
+        //FOV in pixels, smaller fov will result in faster update time
+        const int maxX = 2560;
+        const int maxY = 100; // If it is set below 50 or more than 120, the screen may crash.<p align="center">
     <img src="https://i.imgur.com/mtKemJ4.png"> 
 </p>    
           
